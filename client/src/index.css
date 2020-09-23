@@ -1,0 +1,44 @@
+html, body {
+    height: 100vh;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media only screen and (max-width: 991px) {
+    .side-area {
+      display: none;
+    }
+    .main-img-home {
+      background-image: url(/images/home-mobile.jpg);
+    }
+    .bespoke {
+      font-size: 5rem;
+      letter-spacing: -5px;
+      line-height: 70px;
+    }
+    .hand-crafted {
+      font-size: 40px;
+    }
+    .goods {
+      font-size: 3rem;
+      line-height: 35px;
+    }
+    .hero-text-home {
+      margin-top: 200px
+    }
+    .logo-white {
+      width: 35%
+    } 
+    .by {
+      line-height: 70px
+    }
+    .main-area {
+      padding: 0;
+    }
+  }
+  
+  .side-area{
+    padding: 0;
+  }

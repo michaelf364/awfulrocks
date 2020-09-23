@@ -1,0 +1,56 @@
+
+ .hero-image-contact {
+     background-image: url(/images/contact-hero.jpg);
+     background-repeat: no-repeat;
+     height: 90vh;
+     background-size: cover;
+    margin: 25px;
+    width: 98%;
+    margin-bottom: 0px;
+ }
+.formContact {
+    margin-top: 12%;
+}
+
+.groupContact > input {
+    margin-bottom: 20px;
+}
+.contact {
+    border-radius: 0;
+}
+.contact-button {
+    background-color: white;
+    width: 100px;
+    margin-left: 67%;
+    font-family: athelas, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+.contact-button:hover {
+    background-color: black;
+    color: white;
+    }
+
+@media only screen and (max-width: 991px) {
+    .hero-image-contact {
+        background-image: url(/images/mobile-main.jpg);
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .container-fluid {
+        padding: 0px;
+
+    }
+    .contact-button {
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .groupContact{
+        /* width: 600px; */
+    
+        
+    }
+}
